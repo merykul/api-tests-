@@ -11,6 +11,9 @@ public class PetResponse {
     private String status;
     private String[] photoUrls;
     private String[] tags;
+    private int code;
+    private String type;
+    private String message;
 
     public PetResponse() {
 
