@@ -4,7 +4,7 @@ import models.PetResponse;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class UpdatePet {
+public class UpdatePetTest {
     @Test
     public void updatePet() {
         PetClient client = new PetClient();
